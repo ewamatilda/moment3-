@@ -1,0 +1,162 @@
+#container{
+
+    margin: 0px auto; 
+    width: 1024px;
+}
+
+
+
+
+.col-1{
+    padding: 1%;
+    margin-top: 3%;
+    width: 70%;
+    float:left;
+    margin-left: 15%;
+} 
+
+
+
+.col-11{
+    float:right;
+    width: 70%;
+}
+
+.col-2{
+    width: 72%;
+    margin-left: 15%;
+}
+
+.col-21{
+    width: 100%;
+}
+.col-22{
+    float: right; 
+    width: 25%;
+ 
+}
+
+img.flower{
+    width: 60%;
+    margin-top: 0px;
+}
+
+footer{
+    clear:both;
+}
+
+
+
+@media screen and (max-width: 1050px) and (min-width: 845px){
+
+#container{
+    max-width: 90%;
+}
+ header{
+     max-width: 100%;
+ }
+
+ .col-1, .col-2{
+    width: 96%;
+     max-width: 100%;
+     margin-left: 1%;
+
+ }
+ 
+   
+    
+    
+    
+    }
+    
+    
+    /* För mellanskärmar */ 
+    @media screen and (max-width: 844px) and (min-width: 580px){
+       
+        #container{
+            max-width: 90%;
+        }
+         header{
+             max-width: 100%;
+         }
+
+         img.matilda{
+             width: 30%;
+             padding: 1%;
+         }
+
+         img.flower{
+             width: 30%;
+         }
+
+         img.portfolio{
+             width: 7%;
+         }
+
+         
+ .col-1, .col-2{
+    width: 96%;
+     max-width: 100%;
+     margin-left: 1%;
+
+ }
+
+ .col-11{
+     width: 65%;
+     margin-left: 1%;
+ }
+
+ .col-22{
+     width: 61%;
+    
+
+ }
+    
+    }
+
+
+        /* För smartphones */ 
+    @media screen and (max-width: 579px){
+
+        #container{
+            max-width: 90%;
+        }
+         header{
+             max-width: 100%;
+         }
+
+         img.matilda{
+             width: 30%;
+             padding: 1%;
+         }
+
+         img.flower{
+             width: 60%;
+         }
+
+         img.portfolio{
+             width: 15%;
+             margin-left: 15%;
+         }
+
+
+        .col-1, .col-2{
+            width: 96%;
+             max-width: 100%;
+             margin-left: 1%;
+        
+         }
+
+         .col-11{
+            width: 65%;
+            margin-left: 1%;
+        }
+       
+        .col-22{
+            width: 100%;
+            float:left;
+            margin-left: 1%;
+            padding-bottom: 1%;
+        }
+
+    }

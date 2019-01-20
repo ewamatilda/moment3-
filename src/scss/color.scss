@@ -1,0 +1,51 @@
+$body: #C0B2B0; 
+$beige: #D5CFCE; 
+$text1: #423737;
+$text2: #FEFEFE;  
+$darkgrey: #878786;
+
+
+h1, h2, h3, p{
+    color: $text1;  
+}
+
+nav{
+    background-color: $darkgrey;
+    
+}
+
+li, p.footer{
+    color: $beige;
+}
+
+li a{color: $beige;}
+
+li a:hover {
+    background-color: darken($darkgrey, 10%);
+    color: $beige;
+}
+
+body{
+    background-color: $body;
+}
+
+#container{
+    background-color: $beige; 
+}
+
+.col-1{
+    @if $text1 == #423737{
+        background-color: lighten($beige, 10%);
+    }@else if $text1 == #fff{
+        background-color: $text1; 
+    }
+} 
+
+.col-22{
+    background-color: $body; 
+}
+
+footer{
+    @extend nav; 
+    text-align: center;
+}
